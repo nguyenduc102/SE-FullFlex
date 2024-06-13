@@ -6,6 +6,8 @@ import random
 import pulp
 import pickle
 
+from build_ipl import build_ipl
+
 #tạo PHY với 5 nodes, 8 links
 PHY=nx.DiGraph()
 for i in range(5):
