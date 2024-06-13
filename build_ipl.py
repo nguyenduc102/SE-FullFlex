@@ -1,4 +1,4 @@
-from .cre_parameter_ipl as cre_parameter_ipl
+from .cre_parameter_ipl import cre_parameter_ipl
 def build_ipl(Ks:list,
               PHY:nx.DiGraph) -> pulp.LpProblem:
 
