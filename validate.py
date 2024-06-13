@@ -1,3 +1,4 @@
+from cre_parameteripl import cre_parameter_ipl
 
 def validate(PHY: nx.DiGraph, Ks: list[list[nx.DiGraph]],solution: dict[str,float]):
     xNode,xEdge,pi,phi,z = cre_parameter_ipl(Ks,PHY)
